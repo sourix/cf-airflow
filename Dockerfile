@@ -1,11 +1,11 @@
-# VERSION 1.10.10
-# AUTHOR: Matthieu "Puckel_" Roisil
+# Based on puckel/docker-airflow
+# AUTHOR: Souri R Venkatesan
 # DESCRIPTION: Basic Airflow container
-# BUILD: docker build --rm -t puckel/docker-airflow .
-# SOURCE: https://github.com/puckel/docker-airflow
+# BUILD: docker build IMAGE_NAME[:TAG] .
+# SOURCE: https://github.com/sourix/cf-airflow
 
 FROM python:3.7-slim-buster
-LABEL maintainer="Puckel_"
+LABEL maintainer="Souri_"
 
 # Never prompt the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive
