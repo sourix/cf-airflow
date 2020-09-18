@@ -4,5 +4,5 @@ applications:
   instances: 1
   memory: 2G
   docker:
-    image: sourirv/airflow-seq:1
+    image: IMAGE_NAME[:TAG]
 
