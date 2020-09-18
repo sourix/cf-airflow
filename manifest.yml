@@ -1,0 +1,8 @@
+applications:
+- name: airflow-seq
+  disk_quota: 2G
+  instances: 1
+  memory: 2G
+  docker:
+    image: sourirv/airflow-seq:1
+
